@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tea House Dhaka</title>
+    <title>Fruit Brust</title>
+    <link rel="shortcut icon" href="./images/apple (1).svg" type="image/x-icon">
     <!-- google font manrope -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,9 +27,9 @@
         tailwind.config = {
             theme: {
                 extend: {
-                    backgroundImage: {
+                    colors: {
 
-                        'cup-bg': "url('./images/bg_cup.png')",
+                        'main-bg': '#F85559',
                     }
                 }
             }
@@ -43,12 +44,95 @@
         p {
             font-weight: 500;
         }
+
+        /* 
+        #myInput {
+            padding: 10px;
+        } */
     </style>
 </head>
 
-<body class="font-manrope ">
-    <header>
+<body class="lg:mt-10 font-manrope">
+    <header class="container mx-auto">
+        <div class="flex justify-between lg:bg-main-bg h-[120px] items-center md:px-8 md:rounded-full">
 
+            <div class="lg:hidden">
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </label>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a> </li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                        <li class="relative text-gray-800 ">
+                            <input type="search"
+                                class="w-full p-2 border rounded-full focus:outline-none focus:border-blue-500"
+                                placeholder="Search here">
+                            <span class="absolute right-0 mt-3 mr-4 -top-1">
+                                <i class="fas fa-search"></i>
+                            </span>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- jkglkdfv -->
+            <div class="font-medium text-white lg:flex-1 ">
+                <div class="hidden navbar-center lg:flex">
+                    <ul class="px-1 menu menu-horizontal lg:text-[18px]">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a> </li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                </div>
+            </div>
+            <div class="flex items-center gap-1 lg:flex-1 md:gap-3">
+                <img src="./images/logo.png" alt="" class="h-8 w-7 md:h-14 md:w-14 ">
+                <h2 class="text-2xl font-bold md:text-[40px] lg:text-white">Fruit Burst</h2>
+
+            </div>
+
+            <!-- <div class="hidden lg:block"> -->
+            <div class="w-[300px]  lg:block hidden ">
+                <div class="relative text-gray-800 ">
+                    <input type="search"
+                        class="w-full px-4 py-2 border rounded-full focus:outline-none focus:border-blue-500"
+                        placeholder="Search here">
+                    <span class="absolute right-0 mt-3 mr-4 -top-1">
+                        <i class="fas fa-search"></i>
+                    </span>
+                </div>
+            </div>
+            <!-- </div> -->
+
+        </div>
+        <!-- fgheoeiueriof -->
+        <!-- <div class="lg:hidden">
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </label>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a> </li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                    </ul>
+                </div>
+            </div> -->
+        </div>
     </header>
     <main>
 
