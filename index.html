@@ -64,7 +64,11 @@
         @apply bg-primary border-primary hover:bg-primary hover:border-primary text-white capitalize text-base font-bold;
       }
     }
+      #rotate-360{
+        transform: rotate(360deg);
+    }
   </style>
+
 </head>
 
 <!-- <body class="text-base font-normal font-workSans text-dark-1"> -->
@@ -474,7 +478,8 @@
             class="my-20 md:my-[120px] bg-[url('./images/team.png'),_linear-gradient(#121212B3,_#121212B3)] bg-blend-overlay bg-cover bg-center text-white py-20 rounded-lg ">
             <div class="mx-auto space-y-5 text-center lg:w-2/4">
                 <h2 class="text-2xl font-bold text-white md:text-5xl">Meet the team section</h2>
-                <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin
+                <p class="mx-4 lg:mx-0">Contrary to popular belief, is not simply random text. It has roots in a piece
+                    of classical Latin
                     literature from 45 BC, making it over 2000 years old.</p>
             </div>
             <!--team member profiles -->
@@ -535,10 +540,101 @@
                     <p>Fruits Expert</p>
                     <div class="flex justify-center">
                         <ul class="flex gap-3 mx-auto text-2xl ">
-                            <li class="text-primary"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li class="text-primary "><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
                             <li class="text-primary"><a href=" #"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li class="text-primary"><a href=" #"><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li class=" text-primary"><a href=" #"><i class=" fa-brands fa-linkedin"></i></a>
+                            </li>
                         </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Why Choose Us section -->
+        <section>
+            <div class="mx-auto space-y-5 text-center md:w-3/4 lg:w-2/4">
+                <h2 class="text-3xl font-bold md:text-5xl">Why Choose Us</h2>
+                <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin
+                    literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+            <div class="grid grid-cols-1 gap-10 my-10 lg:gap-5 lg:grid-cols-3">
+                <div class="order-2 space-y-5 lg:order-1">
+                    <!-- item-1 -->
+                    <div class="flex flex-col items-center justify-center gap-5 lg:flex-row lg:justify-start">
+                        <div class="p-4 text-2xl bg-gray-200 rounded-full"><i class="fa-solid fa-users"></i></div>
+                        <div class="space-y-5 text-center lg:text-start">
+                            <h2 class="text-2xl font-bold">Dedicated Team</h2>
+                            <hr class="w-2/4 mx-auto border-red-500 md:w-1/4 lg:mx-0">
+                            <p class="md:w-3/4 lg:w-full md:mx-auto">Professional employees are there for you to pick
+                                the
+                                most amazing and fresh fruits.</p>
+                        </div>
+                    </div>
+                    <!-- item-2 -->
+                    <div class="flex flex-col items-center justify-center gap-5 lg:flex-row lg:justify-start">
+                        <div class="p-4 text-2xl bg-gray-200 rounded-full"><i
+                                class="fa-solid fa-heart-circle-check"></i>
+                        </div>
+                        <div class="space-y-5 text-center lg:text-start">
+                            <h2 class="text-2xl font-bold">Fresh is Best</h2>
+                            <hr class="w-2/4 mx-auto border-red-500 md:w-1/4 lg:mx-0">
+                            <p class="md:w-3/4 lg:w-full md:mx-auto">Professional employees are there for you to pick
+                                the
+                                most amazing
+                                and fresh fruits.</p>
+                        </div>
+                    </div>
+                    <!-- item-3 -->
+                    <div class="flex flex-col items-center justify-center gap-5 lg:flex-row lg:justify-start">
+                        <div class="p-4 text-2xl bg-gray-200 rounded-full"><i class="fa-solid fa-gifts"></i></div>
+                        <div class="space-y-5 text-center lg:text-start">
+                            <h2 class="text-2xl font-bold">Gift Certificates</h2>
+                            <hr class="w-2/4 mx-auto border-red-500 md:w-1/4 lg:mx-0">
+                            <p class="md:w-3/4 lg:w-full md:mx-auto">Professional employees are there for you to pick
+                                the
+                                most amazing and fresh fruits.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="order-1 lg:order-2">
+                    <img src="./images/whychoose1.png" alt="" class="object-cover w-full h-full rounded-lg">
+                </div>
+                <div class="order-3 space-y-5 ">
+                    <!-- item-1 -->
+                    <div class="flex flex-col items-center justify-center gap-5 lg:flex-row lg:justify-start">
+                        <div class="p-5 text-2xl bg-gray-200 rounded-full"><i class="fa-solid fa-seedling"></i></div>
+                        <div class="space-y-5 text-center lg:text-start">
+                            <h2 class="text-2xl font-bold">Integrated Supplier</h2>
+                            <hr class="w-2/4 mx-auto border-red-500 md:w-1/4 lg:mx-0">
+                            <p class="md:w-3/4 lg:w-full md:mx-auto">Professional employees are there for you to pick
+                                the
+                                most amazing and fresh fruits.</p>
+                        </div>
+                    </div>
+                    <!-- item-2 -->
+                    <div class="flex flex-col items-center justify-center gap-5 lg:flex-row lg:justify-start">
+                        <div class="p-5 text-2xl bg-gray-200 rounded-full"><i class="fa-solid fa-carrot"></i>
+                        </div>
+                        <div class="space-y-5 text-center lg:text-start">
+                            <h2 class="text-2xl font-bold">Sustainable Practice</h2>
+                            <hr class="w-2/4 mx-auto border-red-500 md:w-1/4 lg:mx-0">
+                            <p class="md:w-3/4 lg:w-full md:mx-auto">Professional employees are there for you to pick
+                                the
+                                most amazing
+                                and fresh fruits.</p>
+                        </div>
+                    </div>
+                    <!-- item-3 -->
+                    <div class="flex flex-col items-center justify-center gap-5 lg:flex-row lg:justify-start">
+                        <div class="p-5 text-2xl bg-gray-200 rounded-full"><i class="fa-regular fa-thumbs-up"></i></div>
+                        <div class="space-y-5 text-center lg:text-start">
+                            <h2 class="text-2xl font-bold">The Benefits Only</h2>
+                            <hr class="w-2/4 mx-auto border-red-500 md:w-1/4 lg:mx-0">
+                            <p class="md:w-3/4 lg:w-full md:mx-auto">Professional employees are there for you to pick
+                                the
+                                most amazing and fresh fruits.</p>
+                        </div>
                     </div>
 
                 </div>
